@@ -1,0 +1,65 @@
+.nav-bar {
+    /* Navigation */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+    height: 15%;
+    backdrop-filter: blur(25px);
+    z-index: 9999;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+
+
+}
+
+.logo {
+    /* DailyFlow */
+
+    height: 14%;
+
+    /* Title Hero */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    /* or 86px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #D1C0FF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.nav-buttons {
+    /* NavButtons */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 0px;
+    gap: 10px;
+
+}

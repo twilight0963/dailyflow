@@ -1,0 +1,29 @@
+.button {
+    /* Button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 32px;
+    gap: 10px;
+
+
+    height: 20%;
+
+    /* PurpleGradient
+
+    Buttons
+    */
+    background: linear-gradient(180deg, #6C56ED 0%, #3B25B9 100%);
+    box-shadow: 0px 0px 20px -1px rgba(85, 85, 252, 0.5);
+    border-radius: 40px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}

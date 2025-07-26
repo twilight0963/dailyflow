@@ -1,0 +1,45 @@
+.page { 
+    /* Schedules Page */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 17px;
+    gap: 31px;
+
+    background: #040404;
+
+}
+
+.schedule-frame {
+    /* Frame 2 */
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 10%;
+    width: 95vw;
+    gap: 15px;
+    overflow: hidden;
+
+}
+
+.body {
+    margin: 0;
+    padding-top: 15%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.frame {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}

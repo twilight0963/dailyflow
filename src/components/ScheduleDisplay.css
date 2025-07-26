@@ -1,0 +1,105 @@
+.schedule {
+    /* Schedules */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+
+    width: 100%;
+    height: 15%;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+
+}
+
+.buttons {
+    /* NavButtons */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 0px;
+    gap: 10px;
+
+}
+
+.name-date {
+    /* Frame 1 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0px;
+
+    margin: 0;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.name {
+    /* Schedule 1 */
+
+    height: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.date {
+    /* Created at: DD-MM-YYYY */
+
+    
+    height: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}

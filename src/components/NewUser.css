@@ -47,7 +47,6 @@
 .title {
     height: 15px;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -73,7 +72,6 @@
 
     Description or small heading
     */
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;

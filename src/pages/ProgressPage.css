@@ -50,8 +50,6 @@
 .stat-title {
     /* Completion Streak: */
 
-
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -103,7 +101,6 @@
     left: 50%;
     transform: translateX(-50%);
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -125,7 +122,6 @@
     left: 50%;
     transform: translateX(-50%);
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
@@ -149,7 +145,6 @@
     transform: translateX(-50%);
     top: 50%;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -171,7 +166,6 @@
     left: 50%;
     transform: translateX(-50%);
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -192,7 +186,6 @@
     left: 50%;
     transform: translateX(-50%);
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

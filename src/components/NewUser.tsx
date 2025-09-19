@@ -7,7 +7,7 @@ const NewUser : React.FC = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate("/logged-in")
+        navigate("/home")
     }
 
     return(

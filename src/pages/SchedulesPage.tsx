@@ -13,7 +13,7 @@ const data: Record<string, Date> = {
 
 export default function SchedulesPage() {
   return (
-    <div>
+    <div className="page">
       <Navbar />
       <div className='schedule-frame'>
         <Separator/>

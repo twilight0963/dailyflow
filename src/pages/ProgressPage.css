@@ -1,0 +1,223 @@
+.view-frame {
+    /* Frame 8 */
+
+    /* Auto layout */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 10%;
+    gap: 10px;
+    position: absolute;
+    left: 2vw;
+    right: 2vw;
+    top:5%;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 1;
+
+}
+
+.stat-frame {
+    /* Frame 9 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
+}
+
+.stat-title {
+    /* Completion Streak: */
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.stat-content {
+    /* Frame 11 */
+
+    box-sizing: border-box;
+
+    position: relative;
+    height: 60vh;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.25);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.stat-start {
+    /* You have snoozed */
+    margin: 0 auto;
+
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.stat-number {
+    /* 5 */
+
+    position: absolute;
+    height: 0px;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 150%;
+    /* identical to box height, or 192px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+.stat-progress {
+    /* +1 ↑ */
+
+    position: absolute;
+    height: 0px;
+    left: 60%;
+    transform: translateX(-50%);
+    top: 50%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF3C3C;
+}
+
+.stat-subtext {
+    /* tasks in the last 7 days. */
+
+    position: absolute;
+    height: 0px;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.stat-tip {
+    /* Tip: Give ample breaks between tasks. */
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 60px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.page { 
+    /* Schedules Page */
+
+    /* Auto layout */
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 17px;
+    gap: 31px;
+
+
+    background: #040404;
+}
+
+

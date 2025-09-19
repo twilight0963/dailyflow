@@ -3,7 +3,7 @@ import './Separator.css';
 
 const Separator: React.FC = () => {
   return (
-    <div className = 'separator'></div>
+    <div className = 'separator'/>
   )
 }
 

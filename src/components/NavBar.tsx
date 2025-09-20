@@ -10,8 +10,11 @@ const Navbar : React.FC = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
+    const homePage = () => {
+        navigate("/")
+    }
     const schedulePage = () => {
-        navigate("/home")
+        navigate("/schedules")
     }
 
     const progressPage = () => {
@@ -26,13 +29,13 @@ const Navbar : React.FC = () => {
 
     return (
         <nav className="nav-bar">
-            <p className='logo'> DailyFlow </p>
+            <button className='logo' onClick={homePage}> DailyFlow </button>
             <div className = 'nav-buttons'>
                 <NavButton label={'New'} onClick={newPage} enabled={location.pathname != '/new'}></NavButton>
                 <VertSeparator></VertSeparator>
                 <NavButton label={'Progress'} onClick={progressPage} enabled={location.pathname != '/progress'}></NavButton>
                 <VertSeparator></VertSeparator>
-                <NavButton label={'Schedule'} onClick={schedulePage} enabled={location.pathname != '/home'}></NavButton>
+                <NavButton label={'Schedule'} onClick={schedulePage} enabled={location.pathname != '/schedules'}></NavButton>
             </div>
         </nav>
     );

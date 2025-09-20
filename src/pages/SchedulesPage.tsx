@@ -16,12 +16,14 @@ export default function SchedulesPage() {
     <div className="page">
       <Navbar />
       <div className='schedule-frame'>
-        <Separator/>
+        <div style={{ width: '100%', marginBottom: '20px' }}>
+          <Separator />
+        </div>
         {Object.entries(data).map(([label,date]) => (
           <div className='frame'>
             
             <Schedule title={label} date={date}/>
-            <Separator/>
+            <Separator />
           </div>
         ))}
       </div>

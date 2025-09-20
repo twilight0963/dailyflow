@@ -29,7 +29,6 @@
     /* DailyFlow */
 
     height: 14%;
-
     /* Title Hero */
     font-style: normal;
     font-weight: 700;
@@ -42,6 +41,7 @@
     letter-spacing: -0.03em;
 
     color: #D1C0FF;
+    background: none;
 
 
     /* Inside auto layout */

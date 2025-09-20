@@ -1,7 +1,7 @@
 import Navbar from '../components/Logobar';
 import NewUser from '../components/NewUser';
 
-export default function Home() {
+export default function Login() {
   return (
     <div>
       <Navbar />
